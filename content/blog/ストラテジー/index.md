@@ -1,6 +1,7 @@
 ---
 title: ストラテジー
 isMix: true
+youtubeLink: https://www.youtube.com/watch?v=qOSz8789bl4
 ---
 
 【間奏】スタンダード(ファイボワイパーまで)<br />

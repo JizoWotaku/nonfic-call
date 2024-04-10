@@ -1,6 +1,7 @@
 ---
 title: 混沌MIXをおぼえるうた
 isMix: true
+youtubeLink: https://www.youtube.com/watch?v=4hX5ssVaaYk
 ---
 
 【間奏】<br />
@@ -12,7 +13,3 @@ isMix: true
 【混沌MIXパート】歌詞に合わせて混沌MIX<br />
 【逆混沌MIXパート】歌詞に合わせて逆混沌MIX<br />
 【ｱｳﾄﾛ】アイヌ<br />
-<br />
-<br />
-【参考】<br />
-[例のアレで世界中カオスなので『混沌MIXをおぼえるうた』を作ってみた](https://www.youtube.com/watch?v=4hX5ssVaaYk)

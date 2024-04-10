@@ -1,6 +1,7 @@
 ---
 title: Honey Up RUSH!!
 isMix: true
+youtubeLink: https://www.youtube.com/watch?v=KIkeeOhJOe0
 ---
 
 【はるちゃんパート】はるちゃんコール<br />

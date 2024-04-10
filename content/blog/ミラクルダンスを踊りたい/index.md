@@ -1,6 +1,7 @@
 ---
 title: ミラクルダンスを踊りたい
 isMix: true
+youtubeLink: https://www.youtube.com/watch?v=b5vmVI459PY
 ---
 
 【最初の間奏】倍速スタンダード<br />

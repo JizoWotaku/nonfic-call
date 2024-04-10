@@ -1,6 +1,7 @@
 ---
 title: GiveME☆Summer
 isMix: true
+youtubeLink: https://www.youtube.com/watch?v=fD-nJn0ASDM
 ---
 
 【ｲﾝﾄﾛ】<br />

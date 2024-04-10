@@ -1,6 +1,7 @@
 ---
 title: ふゅーちゃーちゅぅな～！
 isMix: true
+youtubeLink: https://www.youtube.com/watch?v=2PIOe8H4lGs
 ---
 
 【ｲﾝﾄﾛ】ミョーホントゥスケ広場<br />

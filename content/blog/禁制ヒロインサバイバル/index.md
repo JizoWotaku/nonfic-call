@@ -1,6 +1,7 @@
 ---
 title: 禁制ヒロインサバイバル
 isMix: true
+youtubeLink: https://www.youtube.com/watch?v=0engovobUPM
 ---
 
 【ｲﾝﾄﾛ】スタンダード<br />

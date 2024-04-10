@@ -1,6 +1,7 @@
 ---
 title: ぷろろ〜ぐ
 isMix: false
+youtubeLink: https://www.youtube.com/watch?v=5YRK6VDJD8Q
 ---
 
 ぷろふぃ〜るの登場によってお亡くなりに🥲<br />

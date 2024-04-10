@@ -1,6 +1,7 @@
 ---
 title: てっぺんコード
 isMix: true
+youtubeLink: https://www.youtube.com/watch?v=xxpr15tE1YI
 ---
 
 【ｲﾝﾄﾛ】ミョーホントゥスケ広場→スタンダード<br />

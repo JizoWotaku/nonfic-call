@@ -1,6 +1,7 @@
 ---
 title: ビリビリLOVEゲーム
 isMix: true
+youtubeLink: https://www.youtube.com/watch?v=q0bngYgmHKA
 ---
 
 【0ｻﾋﾞ後】スタンダード<br />

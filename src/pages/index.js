@@ -13,10 +13,20 @@ const BlogIndex = ({ data, location }) => {
     return (
       <Layout location={location} title={siteTitle}>
         <Bio />
-        <p>
-          楽曲がないだとっっ！
-        </p>
+        <p>楽曲がないだとっっ！</p>
       </Layout>
+    )
+  }
+
+  const showPosts = post => {
+    const title = post.frontmatter.title || post.fields.slug
+    return (
+      <li key={post.fields.slug}>
+        <Link to={post.fields.slug} itemProp="url">
+          <span itemProp="headline">{title}</span>
+          <span>{post.frontmatter.youtubeLink ? " (動画有)" : ""}</span>
+        </Link>
+      </li>
     )
   }
 
@@ -26,27 +36,13 @@ const BlogIndex = ({ data, location }) => {
       <h2>楽曲一覧</h2>
       <h3>コール有り</h3>
       <ul className="music-list">
-        {posts.filter(post => post.frontmatter.isMix).map(post => {
-          const title = post.frontmatter.title || post.fields.slug
-          return (
-            <li key={post.fields.slug}>
-              <Link to={post.fields.slug} itemProp="url">
-                <span itemProp="headline">{title}</span>
-              </Link>
-            </li>
-          )
-        })}
+        {posts
+          .filter(post => post.frontmatter.isMix)
+          .map(post => showPosts(post))}
         <h3>コール募集中</h3>
-        {posts.filter(post => !post.frontmatter.isMix).map(post => {
-          const title = post.frontmatter.title || post.fields.slug
-          return (
-            <li key={post.fields.slug}>
-              <Link to={post.fields.slug} itemProp="url">
-                <span itemProp="headline">{title}</span>
-              </Link>
-            </li>
-          )
-        })}
+        {posts
+          .filter(post => !post.frontmatter.isMix)
+          .map(post => showPosts(post))}
       </ul>
     </Layout>
   )
@@ -77,6 +73,7 @@ export const pageQuery = graphql`
         frontmatter {
           title
           isMix
+          youtubeLink
         }
       }
     }

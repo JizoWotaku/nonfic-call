@@ -1,6 +1,7 @@
 ---
 title: ツヨカワ
 isMix: true
+youtubeLink: https://www.youtube.com/watch?v=DqzGiPiuU1I
 ---
 
 【ｲﾝﾄﾛ】スタンダード<br />

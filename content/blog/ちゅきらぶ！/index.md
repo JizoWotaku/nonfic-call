@@ -1,6 +1,7 @@
 ---
 title: ちゅきらぶ！
 isMix: true
+youtubeLink: https://www.youtube.com/watch?v=blMMIwo7v4k
 ---
 
 【ｲﾝﾄﾛ】萌キュン始動スタンダード<br />
