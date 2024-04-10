@@ -4,11 +4,35 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+import './blog.css'
+
 const BlogPostTemplate = ({
   data: { site, markdownRemark: post },
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
+
+  const [timeSet, setTimeSet] = React.useState(false)
+
+  const youtubeSrc = React.useMemo(() => {
+    if (!post?.frontmatter?.youtubeLink) return undefined
+
+    const baseSrc = `https://www.youtube.com/embed/${new URL(
+      post.frontmatter.youtubeLink
+    ).searchParams.get("v")}`
+
+    if (timeSet) {
+      return `${baseSrc}?start=${timeSet}&autoplay=1`
+    }
+    return baseSrc
+  }, [post, timeSet])
+
+  const clickHandler = e => {
+    const el = e.target.closest("t")
+    if (el && e.currentTarget.contains(el) && el?.getAttribute("s")) {
+      setTimeSet(el.getAttribute("s"))
+    }
+  }
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -19,13 +43,29 @@ const BlogPostTemplate = ({
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
         </header>
-        <section
+        <div
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
+          onClick={clickHandler}
         />
+
         <hr />
+        {youtubeSrc && (
+          <>
+            <iframe
+              width="560"
+              height="315"
+              src={youtubeSrc}
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            />
+            <hr />
+          </>
+        )}
       </article>
     </Layout>
   )
@@ -43,9 +83,7 @@ export const Head = ({ data: { markdownRemark: post } }) => {
 export default BlogPostTemplate
 
 export const pageQuery = graphql`
-  query BlogPostBySlug(
-    $id: String!
-  ) {
+  query BlogPostBySlug($id: String!) {
     site {
       siteMetadata {
         title
@@ -57,8 +95,8 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
         description
+        youtubeLink
       }
     }
   }
