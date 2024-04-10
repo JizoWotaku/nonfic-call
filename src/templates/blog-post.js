@@ -54,8 +54,7 @@ const BlogPostTemplate = ({
         {youtubeSrc && (
           <>
             <iframe
-              width="560"
-              height="315"
+              class="youtube-video"
               src={youtubeSrc}
               title="YouTube video player"
               frameborder="0"
