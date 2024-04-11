@@ -1,16 +1,19 @@
 import * as React from "react"
 import { graphql } from "gatsby"
+import {FaInfoCircle} from "@react-icons/all-files/fa/FaInfoCircle"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import InfoPanel from "../components/InfoPanel"
 
-import './blog.css'
+import "./blog.css"
 
 const BlogPostTemplate = ({
   data: { site, markdownRemark: post },
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
+  const note = post.frontmatter.note
 
   const [timeSet, setTimeSet] = React.useState(false)
 
@@ -44,6 +47,9 @@ const BlogPostTemplate = ({
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
         </header>
+
+        {note && <InfoPanel type="info">{note}</InfoPanel>}
+
         <div
           role="presentation"
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -98,6 +104,7 @@ export const pageQuery = graphql`
         title
         description
         youtubeLink
+        note
       }
     }
   }

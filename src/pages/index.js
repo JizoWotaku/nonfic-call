@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 import { FaYoutube } from "@react-icons/all-files/fa/FaYoutube"
+import { FaInfoCircle } from "@react-icons/all-files/fa/FaInfoCircle"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -24,7 +25,10 @@ const BlogIndex = ({ data, location }) => {
     return (
       <li key={post.fields.slug}>
         <Link to={post.fields.slug} itemProp="url">
-        <span>{post.frontmatter.youtubeLink && <><FaYoutube/>{' '}</>}</span>
+          <span>
+            {post.frontmatter.youtubeLink && <FaYoutube style={{marginRight: '3px'}} />}
+            {post.frontmatter.note && <FaInfoCircle style={{marginRight: '3px'}} />}
+          </span>
           <span itemProp="headline">{title}</span>
         </Link>
       </li>
@@ -75,6 +79,7 @@ export const pageQuery = graphql`
           title
           isMix
           youtubeLink
+          note
         }
       }
     }
