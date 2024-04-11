@@ -8,11 +8,11 @@ const InfoPanel = ({ children, type = "info" }) => {
   const Icon = () => {
     switch (type) {
       case "info":
-        return <MdInfo style={{marginRight: '10px'}} />
+        return <MdInfo style={{ marginRight: "10px" }} />
       case "warning":
-        return <MdWarning style={{marginRight: '10px'}} />
+        return <MdWarning style={{ marginRight: "10px" }} />
       case "error":
-        return <MdError style={{marginRight: '10px'}} />
+        return <MdError style={{ marginRight: "10px" }} />
     }
   }
   return (

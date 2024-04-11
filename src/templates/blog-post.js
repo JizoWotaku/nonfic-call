@@ -1,6 +1,6 @@
 import * as React from "react"
 import { graphql } from "gatsby"
-import {FaInfoCircle} from "@react-icons/all-files/fa/FaInfoCircle"
+import { FaInfoCircle } from "@react-icons/all-files/fa/FaInfoCircle"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"

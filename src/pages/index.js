@@ -26,8 +26,12 @@ const BlogIndex = ({ data, location }) => {
       <li key={post.fields.slug}>
         <Link to={post.fields.slug} itemProp="url">
           <span>
-            {post.frontmatter.youtubeLink && <FaYoutube style={{marginRight: '3px'}} />}
-            {post.frontmatter.note && <FaInfoCircle style={{marginRight: '3px'}} />}
+            {post.frontmatter.youtubeLink && (
+              <FaYoutube style={{ marginRight: "3px" }} />
+            )}
+            {post.frontmatter.note && (
+              <FaInfoCircle style={{ marginRight: "3px" }} />
+            )}
           </span>
           <span itemProp="headline">{title}</span>
         </Link>
