@@ -45,9 +45,11 @@ const BlogPostTemplate = ({
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
         </header>
         <div
+          role="presentation"
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
           onClick={clickHandler}
+          onKeyDown={clickHandler}
         />
 
         <hr />
