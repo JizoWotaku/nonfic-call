@@ -4,6 +4,7 @@ isMix: true
 youtubeLink: https://www.youtube.com/watch?v=fD-nJn0ASDM
 ---
 
+Note: ｻﾋﾞでタオルを振り回すのでライブに行く時は**タオルをもっていくようにしましょう**<br /><br />
 【ｲﾝﾄﾛ】<br />
 <t s=18>ミョーホントゥスケ広場 -> スタンダード</t><br />
 or<br />
