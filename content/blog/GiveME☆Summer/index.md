@@ -2,7 +2,11 @@
 title: GiveME☆Summer
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=fD-nJn0ASDM
-note: ｻﾋﾞでタオルを振り回すのでライブに行く時は<b>タオルをもっていくようにしましょう</b>
+note:
+  {
+    type: info,
+    content: ｻﾋﾞでタオルを振り回すのでライブに行く時は<b>タオルをもっていくようにしましょう</b>。,
+  }
 ---
 
 【ｲﾝﾄﾛ】<br />

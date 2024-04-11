@@ -1,6 +1,5 @@
 import * as React from "react"
 import { graphql } from "gatsby"
-import { FaInfoCircle } from "@react-icons/all-files/fa/FaInfoCircle"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -48,7 +47,7 @@ const BlogPostTemplate = ({
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
         </header>
 
-        {note && <InfoPanel type="info">{note}</InfoPanel>}
+        {note && <InfoPanel type={note.type}>{note.content}</InfoPanel>}
 
         <div
           role="presentation"
@@ -104,7 +103,10 @@ export const pageQuery = graphql`
         title
         description
         youtubeLink
-        note
+        note {
+          type
+          content
+        }
       }
     }
   }
