@@ -292,6 +292,32 @@ a:focus {
   margin-bottom: var(--spacing-8);
 }
 
+.navigation-links {
+  margin-top: 40px;
+}
+
+.links-title {
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+.navigation-links ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.navigation-links li {
+  margin-bottom: 10px;
+}
+
+.navigation-links a {
+  text-decoration: none;
+}
+
+.navigation-links a:hover {
+  text-decoration: underline;
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {

@@ -5,27 +5,12 @@ import Seo from "../components/seo"
 import { useState } from "react"
 import { FaAngleUp } from "@react-icons/all-files/fa/FaAngleUp"
 import { FaAngleDown } from "@react-icons/all-files/fa/FaAngleDown"
+import calls from "../data/callsData"
 import "./call-list.css"
 
 const CallListPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const [activeCall, setActiveCall] = useState(null)
-
-  const calls = [
-    {
-      name: "スタンダード",
-      content:
-        "タイガー ファイヤー サイバー ファイバー\nダイバー バイバー ジャージャー (ファイボー) (ワイパー)",
-      videoUrl:
-        "https://www.tiktok.com/@zennipponchekitarinai/video/7146996289014615298",
-    },
-    {
-      name: "ジャパニーズ",
-      content: "虎(とら) 火(ひ) 人造(じんぞう) 繊維(せんい)\n海女(あま) 振動(しんどう) 化繊(かせん) 飛(とび) 除去(じょきょ)",
-      videoUrl: "https://www.tiktok.com/@zennipponchekitarinai/video/7231919421583789313",
-    },
-    // TODO: Add other calls as well
-  ]
 
   const toggleCall = index => {
     setActiveCall(activeCall === index ? null : index)
