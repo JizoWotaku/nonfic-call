@@ -10,22 +10,26 @@ const Layout = ({ location, title, children }) => {
     const paths = [
       { path: "/", name: "楽曲一覧" },
       { path: "/call-list/", name: "コール一覧" },
-    ];
+    ]
 
     return (
       <div className="navigation-links">
-        <h2 className="links-title">ページ一覧</h2> 
+        <h2 className="links-title">ページ一覧</h2>
         <ul>
           {paths.map(({ path, name }) => {
             if (location.pathname !== path) {
-              return <li key={path}><Link to={path}>{name}</Link></li>;
+              return (
+                <li key={path}>
+                  <Link to={path}>{name}</Link>
+                </li>
+              )
             }
-            return null;
+            return null
           })}
         </ul>
       </div>
-    );
-  };
+    )
+  }
 
   if (isRootPath) {
     header = (
