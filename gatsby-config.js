@@ -14,6 +14,7 @@ module.exports = {
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
   },
   plugins: [
+    'gatsby-plugin-offline',
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -103,14 +104,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `Gatsby`,
+        name: `のんふぃく！コール表(非公式)`,
+        short_name: `の！コール表(非公式)`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
-        display: `minimal-ui`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
