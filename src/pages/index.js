@@ -34,7 +34,7 @@ const BlogIndex = ({ data, location }) => {
             {post.frontmatter.youtubeLink && (
               <FaYoutube style={{ marginRight: "3px" }} />
             )}
-            {noteType && getInfoPanelIcon(noteType, "3px")}
+            {noteType && <span style={{marginRight: "3px"}}>{getInfoPanelIcon(noteType)}</span>}
           </span>
           <span itemProp="headline">{title}</span>
         </Link>

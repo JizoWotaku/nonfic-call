@@ -3,10 +3,11 @@ title: ミラクルダンスを踊りたい
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=b5vmVI459PY
 appleMusicLink: https://music.apple.com/jp/album/%E3%83%9F%E3%83%A9%E3%82%AF%E3%83%AB%E3%83%80%E3%83%B3%E3%82%B9%E3%82%92%E8%B8%8A%E3%82%8A%E3%81%9F%E3%81%84/1574450153?&i=1574450154
-note: {
+note:
+  {
     type: info,
-    content: ソース → <a href="https://x.com/Barichy2/status/1638101323228012544" target="_blank" rel="noreferrer">ミラクルダンスを踊りたい コール表</a>
-}
+    content: ソース → <a href="https://x.com/Barichy2/status/1638101323228012544" target="_blank" rel="noreferrer">ミラクルダンスを踊りたい コール表</a>,
+  }
 ---
 
 【最初の間奏】 <t s=18>(00:18)</t> 倍速スタンダード<br />

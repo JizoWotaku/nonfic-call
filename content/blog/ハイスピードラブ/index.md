@@ -1,10 +1,7 @@
 ---
 title: ハイスピードラブ
 isMix: true
-note: {
-    type: info,
-    content: ｲﾝﾄﾛはなみえる発案公式
-}
+note: { type: info, content: ｲﾝﾄﾛはなみえる発案公式 }
 ---
 
 【ｲﾝﾄﾛ】<br />
