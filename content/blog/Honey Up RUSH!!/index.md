@@ -2,6 +2,7 @@
 title: Honey Up RUSH!!
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=KIkeeOhJOe0
+appleMusicLink: https://music.apple.com/jp/album/honey-up-rush/1718410868?&i=1718410989
 ---
 
 【はるちゃんパート前】 <t s=40>(00:40)</t> <br />

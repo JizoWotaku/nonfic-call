@@ -2,6 +2,7 @@
 title: GiveME☆Summer
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=fD-nJn0ASDM
+appleMusicLink: https://music.apple.com/jp/album/giveme-summer/1718410868?&i=1718410988
 note:
   {
     type: info,

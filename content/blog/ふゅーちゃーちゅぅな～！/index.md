@@ -2,6 +2,7 @@
 title: ふゅーちゃーちゅぅな～！
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=2PIOe8H4lGs
+appleMusicLink: https://music.apple.com/jp/album/%E3%81%B5%E3%82%85%E3%83%BC%E3%81%A1%E3%82%83%E3%83%BC%E3%81%A1%E3%82%85%E3%81%85%E3%81%AA/1718410868?&i=1718410970
 ---
 
 【ｲﾝﾄﾛ】 <t s=7>(00:07)</t> ミョーホントゥスケ広場<br />

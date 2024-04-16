@@ -1,5 +1,6 @@
 import * as React from "react"
 import { graphql } from "gatsby"
+import { SiApplemusic } from "@react-icons/all-files/si/SiApplemusic"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -13,6 +14,7 @@ const BlogPostTemplate = ({
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
   const note = post.frontmatter.note
+  const appleMusicLink = post.frontmatter.appleMusicLink
 
   const [timeSet, setTimeSet] = React.useState(false)
 
@@ -56,6 +58,14 @@ const BlogPostTemplate = ({
           onClick={clickHandler}
           onKeyDown={clickHandler}
         />
+
+        {appleMusicLink && (
+          <div style={{ padding: "5px" }}>
+            <a href={appleMusicLink} target="_blank" rel="noreferrer">
+              <SiApplemusic /> Apple Music を開く
+            </a>
+          </div>
+        )}
 
         <hr />
         {youtubeSrc && (
@@ -103,6 +113,7 @@ export const pageQuery = graphql`
         title
         description
         youtubeLink
+        appleMusicLink
         note {
           type
           content

@@ -1,6 +1,7 @@
 ---
 title: レイトショー
 isMix: true
+appleMusicLink: https://music.apple.com/jp/album/%E3%83%AC%E3%82%A4%E3%83%88%E3%82%B7%E3%83%A7%E3%83%BC/1562073302?&i=1562073303
 note:
   {
     type: warning,

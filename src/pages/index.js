@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 import { FaYoutube } from "@react-icons/all-files/fa/FaYoutube"
+import { SiApplemusic } from "@react-icons/all-files/si/SiApplemusic"
 import { getInfoPanelIcon } from "../components/InfoPanel"
 
 import Bio from "../components/bio"
@@ -27,6 +28,9 @@ const BlogIndex = ({ data, location }) => {
       <li key={post.fields.slug}>
         <Link to={post.fields.slug} itemProp="url">
           <span>
+            {post.frontmatter.appleMusicLink && (
+              <SiApplemusic style={{ marginRight: "3px" }} />
+            )}
             {post.frontmatter.youtubeLink && (
               <FaYoutube style={{ marginRight: "3px" }} />
             )}
@@ -82,6 +86,7 @@ export const pageQuery = graphql`
           title
           isMix
           youtubeLink
+          appleMusicLink
           note {
             type
             content

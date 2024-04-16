@@ -1,6 +1,7 @@
 ---
 title: NonFiction
 isMix: true
+appleMusicLink: https://music.apple.com/jp/album/nonfiction/1718410868?&i=1718410977
 ---
 
 【ｲﾝﾄﾛ】ミョーホントゥスケ広場<br />

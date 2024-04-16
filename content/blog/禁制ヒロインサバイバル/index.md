@@ -2,6 +2,7 @@
 title: 禁制ヒロインサバイバル
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=0engovobUPM
+appleMusicLink: https://music.apple.com/jp/album/%E7%A6%81%E5%88%B6%E3%83%92%E3%83%AD%E3%82%A4%E3%83%B3%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/1718410868?&i=1718410980
 ---
 
 【ｲﾝﾄﾛ】 <t s=9>(00:09)</t> スタンダード<br />
