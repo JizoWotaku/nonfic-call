@@ -182,7 +182,12 @@ const calls = [
       "がんばれがんばれできるできる!だめだめだめだめ諦めちゃ!\nDont worry be happy!\n今日からお前が富士山だ!",
     videoUrl: "https://x.com/taiyakiumaaaa/status/1776318587717951584",
   },
-
+  {
+    name: "サンリオ",
+    content:
+      "キキ ララ クロミ\nシナモン バツ丸 ハローキティ\nケロッピー マイメロディー\nどんじゃらホイって知ってる〜?\nみんな大好きポムポムプリン",
+    videoUrl: "https://www.tiktok.com/@zennipponchekitarinai/video/7208539010736590082",
+  },
   // TODO: Add other calls as well
 ]
 
