@@ -32,6 +32,7 @@ const Seo = ({ description, title, children }) => {
       <meta property="og:title" content={title} />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:type" content="website" />
+      <meta name="google-site-verification" content="Ue_9y3MxMqW1Jp5wTgzmTA1WgNAGPFaTNYTXSU1OKmE" />
       {children}
     </>
   )
