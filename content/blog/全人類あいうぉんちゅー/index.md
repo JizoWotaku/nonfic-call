@@ -2,6 +2,7 @@
 title: 全人類あいうぉんちゅー
 isMix: true
 appleMusicLink: https://music.apple.com/jp/album/%E5%85%A8%E4%BA%BA%E9%A1%9E%E3%81%82%E3%81%84%E3%81%86%E3%81%89%E3%82%93%E3%81%A1%E3%82%85%E3%83%BC/1718410868?&i=1718410875
+isActive: true
 ---
 
 【ｲﾝﾄﾛ】タイガーファイヤー始動スタンダード<br />

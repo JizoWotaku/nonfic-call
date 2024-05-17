@@ -3,6 +3,7 @@ title: ちゅきらぶ！
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=blMMIwo7v4k
 appleMusicLink: https://music.apple.com/jp/album/%E3%81%A1%E3%82%85%E3%81%8D%E3%82%89%E3%81%B6/1718410868?&i=1718410869
+isActive: true
 ---
 
 【ｲﾝﾄﾛ】 <t s=7>(00:07)</t> 萌キュン始動スタンダード<br />

@@ -3,6 +3,7 @@ title: ぷろふぃ〜る
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=ZQdpQ2dRRhQ
 appleMusicLink: https://music.apple.com/jp/album/%E3%81%B7%E3%82%8D%E3%81%B5%E3%81%83-%E3%82%8B/1718410868?&i=1718410874
+isActive: true
 ---
 
 【ｲﾝﾄﾛ】 <t s=5>(00:05)</t> <br />

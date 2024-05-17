@@ -1,6 +1,7 @@
 ---
 title: トキメキGetCrazy
 isMix: true
+isActive: true
 ---
 
 【ｲﾝﾄﾛ】タイガーファイヤー始動スタンダード<br />

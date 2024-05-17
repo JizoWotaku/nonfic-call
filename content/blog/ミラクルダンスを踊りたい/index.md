@@ -8,6 +8,7 @@ note:
     type: info,
     content: ソース → <a href="https://x.com/Barichy2/status/1638101323228012544" target="_blank" rel="noreferrer">ミラクルダンスを踊りたい コール表</a>,
   }
+isActive: true
 ---
 
 【最初の間奏】 <t s=18>(00:18)</t> 倍速スタンダード<br />

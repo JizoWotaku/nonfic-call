@@ -8,6 +8,7 @@ note:
     type: info,
     content: ｻﾋﾞでタオルを振り回すのでライブに行く時は<b>タオルをもっていくようにしましょう</b>。,
   }
+isActive: true
 ---
 
 【ｲﾝﾄﾛ】<br />

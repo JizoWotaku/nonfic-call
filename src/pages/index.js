@@ -11,6 +11,7 @@ import Seo from "../components/seo"
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
+  let musicNumber = 0
 
   if (posts.length === 0) {
     return (
@@ -24,19 +25,25 @@ const BlogIndex = ({ data, location }) => {
   const showPosts = post => {
     const title = post.frontmatter.title || post.fields.slug
     const noteType = post.frontmatter.note?.type
+    musicNumber++
     return (
       <li key={post.fields.slug}>
         <Link to={post.fields.slug} itemProp="url">
+          <span>{musicNumber}. </span>
+          <span itemProp="headline">{title}</span>
           <span>
             {post.frontmatter.appleMusicLink && (
-              <SiApplemusic style={{ marginRight: "3px" }} />
+              <SiApplemusic style={{ marginLeft: "3px" }} />
             )}
             {post.frontmatter.youtubeLink && (
-              <FaYoutube style={{ marginRight: "3px" }} />
+              <FaYoutube style={{ marginLeft: "3px" }} />
             )}
-            {noteType && <span style={{marginRight: "3px"}}>{getInfoPanelIcon(noteType)}</span>}
+            {noteType && (
+              <span style={{ marginLeft: "3px" }}>
+                {getInfoPanelIcon(noteType)}
+              </span>
+            )}
           </span>
-          <span itemProp="headline">{title}</span>
         </Link>
       </li>
     )
@@ -49,11 +56,15 @@ const BlogIndex = ({ data, location }) => {
       <h3>コール有り</h3>
       <ul className="music-list">
         {posts
-          .filter(post => post.frontmatter.isMix)
+          .filter(post => post.frontmatter.isMix && post.frontmatter.isActive)
           .map(post => showPosts(post))}
         <h3>コール募集中</h3>
         {posts
-          .filter(post => !post.frontmatter.isMix)
+          .filter(post => !post.frontmatter.isMix && post.frontmatter.isActive)
+          .map(post => showPosts(post))}
+        <h3>もうやらないかも</h3>
+        {posts
+          .filter(post => !post.frontmatter.isActive)
           .map(post => showPosts(post))}
       </ul>
     </Layout>
@@ -91,6 +102,7 @@ export const pageQuery = graphql`
             type
             content
           }
+          isActive
         }
       }
     }

@@ -2,6 +2,7 @@
 title: 一方通行→ステップアップ！
 isMix: true
 appleMusicLink: https://music.apple.com/jp/album/%E4%B8%80%E6%96%B9%E9%80%9A%E8%A1%8C%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%E3%82%A2%E3%83%83%E3%83%97/1718410868?&i=1718410976
+isActive: true
 ---
 
 【ｲﾝﾄﾛ】スタンダード<br />

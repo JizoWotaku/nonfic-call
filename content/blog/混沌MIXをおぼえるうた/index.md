@@ -2,6 +2,12 @@
 title: 混沌MIXをおぼえるうた
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=4hX5ssVaaYk
+note:
+  {
+    type: info,
+    content: カバー曲扱いなのでのんふぃく！の楽曲ではないとのこと,
+  }
+isActive: false
 ---
 
 【間奏】 <t s=7>(00:07)</t> <br />

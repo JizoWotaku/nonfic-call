@@ -3,6 +3,7 @@ title: ストラテジー
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=qOSz8789bl4
 appleMusicLink: https://music.apple.com/jp/album/%E3%82%B9%E3%83%88%E3%83%A9%E3%83%86%E3%82%B8%E3%83%BC/1718410868?&i=1718410982
+isActive: true
 ---
 
 【間奏】 <t s=16>(00:16)</t> スタンダード(ファイボワイパーまで)<br />

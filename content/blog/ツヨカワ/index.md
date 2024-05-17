@@ -3,6 +3,7 @@ title: ツヨカワ
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=DqzGiPiuU1I
 appleMusicLink: https://music.apple.com/jp/album/%E3%83%84%E3%83%A8%E3%82%AB%E3%83%AF/1718410868?&i=1718410975
+isActive: true
 ---
 
 【ｲﾝﾄﾛ】<t s=4>(00:04)</t> スタンダード<br />

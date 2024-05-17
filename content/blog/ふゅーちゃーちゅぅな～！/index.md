@@ -8,6 +8,7 @@ note:
     type: info,
     content: 林修と倍速可変三連は<a href="https://x.com/Haru_nonfic/status/1575787922040623104" target="_blank" rel="noreferrer">恋星発公式 MIX</a>,
   }
+isActive: true
 ---
 
 【ｲﾝﾄﾛ】 <t s=7>(00:07)</t> ミョーホントゥスケ広場<br />
