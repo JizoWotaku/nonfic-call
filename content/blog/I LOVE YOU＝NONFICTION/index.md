@@ -3,6 +3,7 @@ title: I LOVE YOU＝NONFICTION
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=3gm8WwNCk1U
 isActive: true
+appleMusicLink: https://music.apple.com/jp/album/i-love-you-nonfiction/1748532484?&i=1748532485
 ---
 
 【ｲﾝﾄﾛ】<t s=6>(00:06)</t><br />
