@@ -4,4 +4,4 @@ isMix: false
 isActive: true
 ---
 
-まだMIXが定まってない
+まだ MIX が定まってない

@@ -9,5 +9,3 @@ note:
   }
 isActive: false
 ---
-
-

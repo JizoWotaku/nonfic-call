@@ -3,10 +3,7 @@ title: 混沌MIXをおぼえるうた
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=4hX5ssVaaYk
 note:
-  {
-    type: info,
-    content: カバー曲扱いなのでのんふぃく！の楽曲ではないとのこと,
-  }
+  { type: info, content: カバー曲扱いなのでのんふぃく！の楽曲ではないとのこと }
 isActive: false
 ---
 

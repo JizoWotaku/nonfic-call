@@ -186,7 +186,8 @@ const calls = [
     name: "サンリオ",
     content:
       "キキ ララ クロミ\nシナモン バツ丸 ハローキティ\nケロッピー マイメロディー\nどんじゃらホイって知ってる〜?\nみんな大好きポムポムプリン",
-    videoUrl: "https://www.tiktok.com/@zennipponchekitarinai/video/7208539010736590082",
+    videoUrl:
+      "https://www.tiktok.com/@zennipponchekitarinai/video/7208539010736590082",
   },
   // TODO: Add other calls as well
 ]

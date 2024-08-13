@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `のんふぃく！コール表(非公式)`,
+    title: `一杯のコーヒー`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
   },
@@ -96,7 +96,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "のんふぃく！コール表(非公式) RSS Feed",
+            title: "一杯のコーヒー RSS Feed",
           },
         ],
       },
@@ -104,8 +104,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `のんふぃく！コール表(非公式)`,
-        short_name: `の！コール表(非公式)`,
+        name: `一杯のコーヒー`,
+        short_name: `一杯のコーヒー`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
