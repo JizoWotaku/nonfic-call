@@ -12,29 +12,21 @@ const Bio = () => {
   return (
     <div className="bio">
       <p>
-        のんふぃく！のコール表です
+        君と見るそらの楽曲一覧とコールまとめです。
+        <br />
+        コールはライブで観測したものをできるだけ入れてます(間違っているかもしれません)
         <br />
         修正点があれば以下のリポジトリに対してお気軽にプルリクエストどうぞ
         <br />
         {"->"}{" "}
         <a
-          href="https://github.com/JizoWotaku/nonfic-call"
+          href="https://github.com/JizoWotaku/nonfic-call/tree/kimisora"
           target="_blank"
           rel="noreferrer"
         >
-          JizoWotaku/nonfic-call
+          JizoWotaku/nonfic-call (branch: kimisora)
         </a>
         <br />
-        誰も声出さない日もあるので基本好きなコール入れてOKだと思います
-        <br />
-        コールはライブで観測したものをできるだけ入れてます
-        <br />
-        のんふぃく！で使用されている
-        <br />
-        コールの一覧は
-        <Link to="/call-list" itemProp="url">
-          こちら
-        </Link>
       </p>
     </div>
   )

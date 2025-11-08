@@ -62,7 +62,7 @@ const BlogIndex = ({ data, location }) => {
         {posts
           .filter(post => !post.frontmatter.isMix && post.frontmatter.isActive)
           .map(post => showPosts(post))}
-        <h3>もうやらないかも</h3>
+        {/* <h3>もうやらないかも</h3> */}
         {posts
           .filter(post => !post.frontmatter.isActive)
           .map(post => showPosts(post))}
