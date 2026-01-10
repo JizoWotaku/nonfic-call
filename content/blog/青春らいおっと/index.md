@@ -1,5 +1,6 @@
 ---
 title: 青春らいおっと
+keywords: ["せいしゅん", "セイシュンライオット", "seishun"]
 isMix: false
 note:
   {

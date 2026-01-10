@@ -1,5 +1,6 @@
 ---
 title: 君とあの日の距離
+keywords: ["きみとあのひのきょり", "キミトアノヒノキョリ", "kimitoanohino"]
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=ahvaUuCALP0
 isActive: true

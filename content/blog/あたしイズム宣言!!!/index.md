@@ -1,5 +1,6 @@
 ---
 title: あたしイズム宣言!!!
+keywords: ["あたしいずむせんげん", "アタシイズムセンゲン", "atashiizumusengen"]
 isMix: true
 isActive: true
 ---

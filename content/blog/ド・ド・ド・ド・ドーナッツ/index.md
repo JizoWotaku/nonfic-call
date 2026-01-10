@@ -1,5 +1,6 @@
 ---
 title: ド・ド・ド・ド・ドーナッツ
+keywords: ["どーなっつ", "donatsu", "donout"]
 isMix: true
 appleMusicLink: https://music.apple.com/jp/song/%E3%83%89-%E3%83%89-%E3%83%89-%E3%83%89-%E3%83%89%E3%83%BC%E3%83%8A%E3%83%83%E3%83%84/1738487667
 youtubeLink: https://www.youtube.com/watch?v=G5pPQ-gHCzM&list=RDG5pPQ-gHCzM

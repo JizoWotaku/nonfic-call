@@ -1,5 +1,6 @@
 ---
 title: ソライロ
+keywords: ["そらいろ", "sorairo"]
 isMix: true
 appleMusicLink: https://music.apple.com/jp/album/sorairo-single/1768605317
 isActive: true

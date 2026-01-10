@@ -1,5 +1,6 @@
 ---
 title: 特別な時間
+keywords: ["とくべつなじかん", "トクベツナジカン", tokubetsuna]
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=Asae1-vHoo4&list=RDAsae1-vHoo4
 isActive: true

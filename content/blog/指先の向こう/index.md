@@ -1,5 +1,6 @@
 ---
 title: 指先の向こう
+keywords: ["ゆびさきのむこう", "ユビサキノムコウ", "yubisakinomukou"]
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=RkBZ5DGpcNw&list=RDRkBZ5DGpcNw
 isActive: true

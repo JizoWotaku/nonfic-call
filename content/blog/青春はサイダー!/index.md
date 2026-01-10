@@ -1,5 +1,6 @@
 ---
 title: 青春はサイダー!
+keywords: ["せいしゅんはさいだー", "セイシュンハ", "seishun"]
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=tO49NGAUjtM&list=RDtO49NGAUjtM
 appleMusicLink: https://music.apple.com/jp/album/seisyunnhasaida-single/1768596534

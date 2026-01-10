@@ -14,17 +14,23 @@ const BlogIndex = ({ data, location }) => {
   const posts = data.allMarkdownRemark.nodes
   const [searchQuery, setSearchQuery] = useState("")
 
-  // フィルタリングロジック
+  // フィルタリングロジックの更新
   const filteredPosts = posts.filter(post => {
     const title = post.frontmatter.title || ""
-    return title.toLowerCase().includes(searchQuery.toLowerCase())
+    // キーワード配列を取得（未定義の場合は空配列）
+    const keywords = post.frontmatter.keywords || []
+    const query = searchQuery.toLowerCase()
+
+    // タイトル または キーワードのいずれかがヒットすればOK
+    const isTitleMatch = title.toLowerCase().includes(query)
+    const isKeywordMatch = keywords.some(keyword => 
+      keyword.toLowerCase().includes(query)
+    )
+
+    return isTitleMatch || isKeywordMatch
   })
 
-  // 番号付け用に、全記事に対してフィルタリング前のインデックスを保持するか、
-  // 表示時に動的に振るかですが、ここではシンプルに表示順に番号を振ります。
-  // (フィルタリング時は番号が変わりますが、検索結果としては自然です)
-
-  const showPosts = (post, index) => {
+  const showPosts = (post) => {
     const title = post.frontmatter.title || post.fields.slug
     const noteType = post.frontmatter.note?.type
     
@@ -63,7 +69,7 @@ const BlogIndex = ({ data, location }) => {
       <div style={{ marginBottom: '30px' }}>
         <input
           type="text"
-          placeholder="楽曲名を検索..."
+          placeholder="楽曲名、ひらがな、カタカナで検索..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           style={{ 
@@ -82,7 +88,7 @@ const BlogIndex = ({ data, location }) => {
         <>
           <h3>コール有り</h3>
           <ul className="music-list">
-            {mixPosts.map((post, i) => showPosts(post, i))}
+            {mixPosts.map((post) => showPosts(post))}
           </ul>
         </>
       )}
@@ -91,7 +97,7 @@ const BlogIndex = ({ data, location }) => {
         <>
           <h3>コール募集中</h3>
           <ul className="music-list">
-            {nonMixPosts.map((post, i) => showPosts(post, i))}
+            {nonMixPosts.map((post) => showPosts(post))}
           </ul>
         </>
       )}
@@ -100,7 +106,7 @@ const BlogIndex = ({ data, location }) => {
         <>
           <h3>アーカイブ / その他</h3>
           <ul className="music-list">
-            {inactivePosts.map((post, i) => showPosts(post, i))}
+            {inactivePosts.map((post) => showPosts(post))}
           </ul>
         </>
       )}
@@ -136,6 +142,7 @@ export const pageQuery = graphql`
         }
         frontmatter {
           title
+          keywords  # GraphQLクエリにkeywordsを追加
           isMix
           youtubeLink
           appleMusicLink
@@ -147,4 +154,5 @@ export const pageQuery = graphql`
         }
       }
     }
-  }`
+  }
+`

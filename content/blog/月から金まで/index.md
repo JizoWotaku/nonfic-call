@@ -1,5 +1,6 @@
 ---
 title: 月から金まで
+keywords: ["げつからきんまで", "ゲツカラキンマデ", "getsukarakin"]
 isMix: false
 note:
   {

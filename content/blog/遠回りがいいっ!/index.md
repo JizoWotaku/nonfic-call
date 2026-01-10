@@ -1,5 +1,6 @@
 ---
 title: 遠回りがいいっ!
+keywords: ["とおまわり", "トオマワリ", "toomawari"]
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=31BcMq-q7Hs&list=RD31BcMq-q7Hs
 appleMusicLink: https://music.apple.com/jp/album/tomawarigaii-single/1768025993

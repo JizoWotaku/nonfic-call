@@ -1,5 +1,6 @@
 ---
 title: ふわり、初恋。
+keywords: ["はつこい", "ハツコイ", "フワリ", "huwarihatsukoi", "fuwarihatsukoi"]
 isMix: true
 isActive: true
 ---

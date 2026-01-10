@@ -1,5 +1,6 @@
 ---
 title: 待っていてね。
+keywords: ["まっていてね", "マッテイテネ", "matteintene"]
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=jNH6aLbJsiY&list=RDjNH6aLbJsiY
 isActive: true

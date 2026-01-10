@@ -1,5 +1,6 @@
 ---
 title: 好きって。
+keywords: ["すきって", "スキッテ", "sukitte"]
 isMix: true
 youtubeLink: https://www.youtube.com/watch?v=5tM5zGB70cg&list=RD5tM5zGB70cg
 appleMusicLink: https://music.apple.com/jp/song/%E5%A5%BD%E3%81%8D%E3%81%A3%E3%81%A6/1750671755
